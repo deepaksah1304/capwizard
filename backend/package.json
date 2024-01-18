@@ -1,0 +1,31 @@
+{
+  "name": "e-comm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepaksah1304/capwizard"
+  },
+  "author": "Deepak Sah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepaksah1304/capwizard/issues"
+  },
+  "homepage": "https://github.com/deepaksah1304/capwizard#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14 <15"
+  }
+}
